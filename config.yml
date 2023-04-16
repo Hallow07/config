@@ -1,0 +1,46 @@
+##########################################
+#              Bot Config                #
+##########################################
+
+BOT_CONFIG:
+  MONGO_URI: ""
+  TOKEN: ""
+  GUILD_ID: ""
+  CLIENT_ID: ""
+  License: "" #IF EMPTY CONSOLE WILL NOT SAY ANYTHING
+
+
+
+##########################################
+#              Embed Config                #
+##########################################
+EMBED_CONFIG:
+  SUCCESSCOLOR: "#03fc0b"
+  FAILEDCOLOR: "#fa0505"
+  BotName: "Hallow OT"
+
+##########################################
+#            Activity Config             #
+##########################################
+
+ACTIVITY:
+  ENABLED: true
+  ACTIVITIES:
+    - ["PLAYING", "Hallow Development"]
+  INTERVAL: "30s"
+
+##########################################
+#            Licenses Config             #
+##########################################
+
+LICENSES_CONFIG:
+  WEB_PORT: 3000
+  WEB_IP: 192.168.1.157
+  API_KEY: "" # 42 character api key
+  GENERAL_SETTINGS:
+    TESTING_MODE: false #KEEP OFF
+    VISIBLE_MESSAGES: false #KEEP THIS ON IF YOU WANT EVERYONE TO SEE WHENEVER YOU USE BOT COMMANDS
+  LOG_SYSTEM:
+    ENABLED: true
+    WEBHOOK_URL: ""
+    WEBHOOK_IMAGE: ""
